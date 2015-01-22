@@ -35,6 +35,6 @@ while True:
     f.write(data)
     f.close()
     print reply
-#    subprocess.call(["/bin/echo", reply, ">", "/home/ubuntu/cmd.txt" ])
+#    subprocess.call(["/home/ubuntu/rover.sh", reply ])
     conn.close()
 s.close()
